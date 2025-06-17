@@ -2,9 +2,9 @@ import telebot, os, subprocess, shutil, time, requests
 from datetime import datetime
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-token = os.getenv("TOKEN")
-ADMIN_ID = os.getenv("ADMIN_ID")
-API_KEY = os.getenv("VT_API_KEY")
+token = os.getenv("8067745587:AAEbeZ_vJOm9c-JVyKXFsaOlG0G7joYSVIQ")
+ADMIN_ID = os.getenv("6186106102")
+API_KEY = os.getenv("2ec241972ed224405090681092436f106705ac33be3cd3b94d09d2725581891b")
 
 SOLO = telebot.TeleBot(token)
 
